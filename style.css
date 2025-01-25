@@ -1,0 +1,163 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+.head{
+  background-color: rgba(154, 197, 25, 0.4);
+  color: rgb(209, 105, 105);
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  padding-top: 10px;
+}
+.nav{
+  background-color: rgba(17, 16, 16, 0.7);
+  height: 30px;
+  text-align: center;
+  padding-top: 5px;
+}
+.nav a{
+  text-decoration: none;
+  padding: 15px;
+  color: rgb(242, 239, 233);
+}
+.about{
+  height: 300px;
+  padding-top: 50px;
+  text-align: center;
+  border: 2px solid black;
+}
+
+.footer{
+  background-color: rgba(5, 1, 1, 0.947);
+  height: 200px;
+  width: 100%;
+  /* border: 2px solid red; */
+  text-align: center;
+  color: skyblue;
+  display: block;
+}
+.footer a{
+  text-decoration: none;
+  color: rgb(102, 100, 100);
+  position: relative;
+  padding: 90px 10px;
+  top: 20%;
+}
+/* Menu of Foood  */
+
+.food{
+  height: 700px;
+  width: 90%;
+  /* background-color: blueviolet; */
+  margin-left: 5%;
+  margin-top: 5px;
+  margin-bottom: 2px;
+  
+}
+.food-table{
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  border: 5px solid black;
+}
+.food-table img{
+  height: 100px;
+  border-radius: 50%;
+}
+#main-course{
+  background-color: rgba(44, 43, 43, 0.98);
+  height: 30px;
+  color: white;
+  font-size: 40px;
+}
+.Nor-ind{
+  font-size: 30px;
+  color: white;
+  background-color: rgb(164, 164, 41);
+}
+#Sou-ind{
+  font-size: 30px;
+  color: white;
+  background-color: rgb(119, 119, 26);
+}
+/* Reservation */
+.form{
+  text-align: center;
+  margin-top: 30px;
+ font-size: 30px;
+ color: rgba(43, 209, 37, 0.831);
+}
+.tab-book{
+  height: 600px;
+  width: 60%;
+  margin-left: 20%;
+  text-align: center;
+}
+.reg{
+  border: 2px solid black;
+  height: 430px;
+  width: 500px;
+  position: relative;
+  left: 25%;
+  top: 40px;
+  background-color: rgba(137, 43, 226, 0.628);
+  border-radius: 10px;
+}
+.input{
+  padding: 10px;
+  text-align: left;
+  font-size: 30px;
+  color: white;
+  margin-top: 5px;
+}
+.button{
+  width: 300px;
+  height: 50px;
+  text-align: center;
+  position: relative;
+  top: 40px;
+  left: 20%;
+
+}
+#sub{
+  background-color: green;
+}
+#res{
+  background-color: red;
+}
+button{
+  width: 100px;
+  height: 40px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 700;
+}
+input{
+  height: 30px;
+  width: 200px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 15px;
+  padding: 5px;
+  font-weight: 600;
+}
+#time{
+  width: 80px;
+}
+/* Contact us */
+.info{
+  text-align: center;
+  margin-top: 15px;
+  font-weight: 900;
+}
+.map{
+  margin-top: 30px;
+  margin-left: 35%;
+  border: 2px solid black;
+  height: 400px;
+  width: 500px;
+  display: block;
+  margin-bottom: 2px;
+}
